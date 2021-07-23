@@ -58,9 +58,33 @@ header nav a:hover{
 
 
 .filme-principal .titulo{
+    margin-top: 10%;
+    margin-bottom: 10px;
     font-size: 40px;
 }
 
 .filme-principal .descricao{
     margin-bottom: 30px;
+}
+
+/* botoes */
+.filme-principal .botao{
+    font-size: 12px;
+    margin-right: 10px;
+    background-color: #14141485;
+    border: none;
+    color: white;
+    padding: 15px 28px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s ease all;
+}
+
+.filme-principal .botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.filme-principal .botao i{
+    margin-right: 6px;
 }
