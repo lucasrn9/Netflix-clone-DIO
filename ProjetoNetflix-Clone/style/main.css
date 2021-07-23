@@ -65,6 +65,7 @@ header nav a:hover{
 
 .filme-principal .descricao{
     margin-bottom: 30px;
+    text-align: justify;
 }
 
 /* botoes */
@@ -87,4 +88,18 @@ header nav a:hover{
 
 .filme-principal .botao i{
     margin-right: 6px;
+}
+
+.container{
+    margin:0px 15px;
+}
+
+.filme-principal .container{
+    width: 80%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
 }
